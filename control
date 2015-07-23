@@ -1,0 +1,15 @@
+Source: nitroshare-cmake
+Section: devel
+Priority: extra
+Maintainer: Nathan Osman <nathan@quickmediasolutions.com>
+Build-Depends: debhelper (>= 9), cmake (>= 2.8.11)
+Standards-Version: 3.9.5
+Homepage: https://github.com/nitroshare/nitroshare-cmake
+
+Package: nitroshare-cmake
+Section: devel
+Architecture: all
+Depends: ${misc:Depends}
+Description: Modules for building NitroShare components
+ A collection of CMake macros and functions that simplify the creation of the
+ cross-platform executables and libraries that comprise the NitroShare project.
